@@ -11,4 +11,4 @@ https://medium.com/@adsonrocha/como-abrir-e-navegar-entre-pastas-com-o-prompt-de
 
 *Para rodar esse projeto é necessária ter o node.js instalado, caso não tenha, você pode facilmente baixá-lo por esse link: https://nodejs.org/en/
 
-<h3>🚧🚧 Esse projeto está ainda em desenvolvimento e poderá sofrer alterações com o passar do tempo 😉</h3>
+<h3>🚧 Esse projeto está ainda em desenvolvimento e poderá sofrer alterações com o passar do tempo 🚧</h3>
