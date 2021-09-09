@@ -1,7 +1,7 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useState } from "react";
-import { Button, Container, Popover, OverlayTrigger } from "react-bootstrap";
+import { Button, Popover, OverlayTrigger } from "react-bootstrap";
 
 function App(props) {
   const [count, setCount] = useState(0);
@@ -21,7 +21,8 @@ function App(props) {
       <Popover.Body>
         Olá <strong>seja bem-vindo(a)</strong> ao meu projeto. Esse meu projeto
         é bem simples, só queria testar meu conhecimentos no React, caso queira
-        ver o código desse projeto, acesse meu GitHub
+        ver o código desse projeto, acesse meu GitHub.{" "}
+        <a href="https://github.com/arthursouza-4f/contador-React">GitHub</a>
       </Popover.Body>
     </Popover>
   );
