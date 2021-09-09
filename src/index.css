@@ -1,13 +1,39 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/*CSS do quadrado no meio da tela*/
+.rectangle {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  padding: 1px 10px;
+  border-radius: 10px;
+  width: 250px;
+  height: 100px;
+  background: #9edc9b;
+}
+
+/*Cria font para usar no contador da tela*/
+@font-face {
+  font-family: "FontCalculator";
+  src: url("../src/fonts/digital-7.ttf");
+}
+
+/*CSS do resultado do contador*/
+.result {
+  font-size: 45px;
+  font-weight: 250;
+  font-family: FontCalculator;
+  color: rgb(0, 0, 0);
 }
