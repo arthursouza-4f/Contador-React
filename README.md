@@ -1,3 +1,7 @@
+<h2>Olá seja bem vindo(a)</h2>
+<p>Contador feito em React.
+Fiz esse projeto para aplicar meus conhecimentos de um curso que estou fazendo de React. Oque eu mais gostei e foi de fato um desafio, foi que eu conseguir fazer isso "sozinho" sem esse projeto se quer existir no curso, ou seja, fiz por conta própria.</p>
+
 Caso queria baixar esse projeto, veja os pré-requisitos.
 ## 💻 Pré-requisitos
 
